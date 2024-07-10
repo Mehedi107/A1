@@ -10,6 +10,12 @@ body {
   color: rgb(13, 19, 33);
 }
 
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 /* Nav section */
 .nav {
   padding: 35px 150px;
@@ -44,25 +50,19 @@ body {
   padding: 26px 0;
 }
 
-.container {
+.section-banner-container {
   max-width: 998px;
   height: 100%;
   text-align: center;
   margin: 0 auto;
 }
 
-.section-banner-title {
+.heading-primary {
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
   margin-top: 32px;
   margin-bottom: 24px;
-}
-
-.section-banner-description {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
 }
 
 .btn-contact {
@@ -73,4 +73,52 @@ body {
   padding: 21px 24px;
   border-radius: 8px;
   margin-top: 32px;
+}
+
+/* section career */
+.section-career {
+  max-width: 1140px;
+  padding: 80px 97px;
+  margin: 74px auto 0 auto;
+  text-align: center;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+}
+
+.heading-secondary {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.section-career-column {
+  padding: 48px;
+  background-color: #fff;
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  text-align: left;
+  border-radius: 16px;
+}
+
+.heading-tertiary {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.btn-learn-more {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border: 1px solid rgb(13, 19, 33);
+  padding: 12px 20px;
+  margin-top: 32px;
+  background-color: #fff;
+  opacity: 0.7;
 }
